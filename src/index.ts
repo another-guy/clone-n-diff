@@ -1,2 +1,1 @@
-// export * from './...';
-export * from './demo-class';
+export * from './cloner';
