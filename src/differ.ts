@@ -5,7 +5,7 @@ export class Differ {
         return this.areObjectsEqualImpl(object1, object2, remainingLevelsToCompare);
     }
 
-    public areObjectsEqualImpl<T>(object1: T, object2: T, remainingLevelsToCompare: number): boolean {
+    private areObjectsEqualImpl<T>(object1: T, object2: T, remainingLevelsToCompare: number): boolean {
         if (this.isInstanceOfPrimitiveType(object1))
             return this.referencesEqual(object1, object2);
 
