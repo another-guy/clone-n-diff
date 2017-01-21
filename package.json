@@ -1,6 +1,6 @@
 {
   "name": "clone-n-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility for deep cloning and detecting changes in objects.",
   "license": "MIT",
 
@@ -25,7 +25,8 @@
     "url": "git+https://github.com/another-guy/diff-n-test.git"
   },
 
-  "main": "index.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
