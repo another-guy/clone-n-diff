@@ -2,26 +2,33 @@
   "name": "clone-n-diff",
   "version": "0.0.1",
   "description": "Utility for deep cloning and detecting changes in objects.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/another-guy/diff-n-test.git"
-  },
+  "license": "MIT",
+
   "keywords": [
     "clone",
     "deep",
     "clone",
     "diff"
   ],
-  "author": "Igor Soloydenko",
-  "license": "MIT",
+  "author": {
+    "name": "Igor Soloydenko",
+    "email": "soloydenko@gmail.com",
+    "url": "http://soloydenko.com"
+  },
   "bugs": {
     "url": "https://github.com/another-guy/diff-n-test/issues"
   },
   "homepage": "https://github.com/another-guy/diff-n-test#readme",
+  "readme": "https://github.com/another-guy/diff-n-test#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/another-guy/diff-n-test.git"
+  },
+
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
