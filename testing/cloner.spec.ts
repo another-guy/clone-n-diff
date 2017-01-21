@@ -9,11 +9,13 @@ describe('Cloner', () => {
 
     describe(`deep copy correct for trivial objects:`, () => {
         [
+            null,
             1,
             "some text",
             true,
             false,
-            3.14159
+            3.14159,
+            new Date()
         ].forEach(sourceObject => {
                 it(`${sourceObject}`, () => {
                 // Act
